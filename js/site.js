@@ -14,8 +14,8 @@ console.log("Hey, I work");
 
          $(function(){
         $("h2 .first").typed({
-            strings: ["This should stay forever. "],
-            typeSpeed: 0,
+            strings: ["Currently enrolled at Nashville Software School Full-Stack Developement track. Technologies in progress: "],
+            typeSpeed: 30,
             callback: function() {
               showThis();
             },
@@ -25,7 +25,7 @@ console.log("Hey, I work");
      function showThis(){
 
         $("span.second").typed({
-              strings: ["Loop Element 1", "Element 2 Here", "New Element 3", "Element # 4"],
+              strings: ["JavaScript", "Node.js", "Ajax", "Angular", "expressjs", "Atom", "Grunt", "Mocha", "Chai"],
               backDelay: 1500,    
               typeSpeed: 100,
               backSpeed: 100,
