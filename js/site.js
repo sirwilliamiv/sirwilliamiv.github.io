@@ -1,7 +1,8 @@
 
 
-
-
+// saving strings as variables
+// rotating icons
+// 
 
 
 
@@ -14,7 +15,7 @@ console.log("Hey, I work");
 
          $(function(){
         $("h2 .first").typed({
-            strings: ["Currently enrolled at Nashville Software School Full-Stack Developement track. Technologies in progress: "],
+            strings: ["Technologies in progress: "],
             typeSpeed: 30,
             callback: function() {
               showThis();
@@ -25,22 +26,21 @@ console.log("Hey, I work");
      function showThis(){
 
         $("span.second").typed({
-              strings: ["JavaScript", "Node.js", "Ajax", "Angular", "expressjs", "Atom", "Grunt", "Mocha", "Chai"],
+              strings: ["JavaScript", "html5", "css3", "Sass", "Coffee","Firebase","Bootstrap", "jQuery", "Node.js", "Ajax", "Angular", "expressjs", "Atom", "Grunt", "Mocha", "Chai"],
               backDelay: 1500,    
-              typeSpeed: 100,
-              backSpeed: 100,
+              typeSpeed: 10,
+              backSpeed: 0,
               loop: true,
-              
-          });
+            });
 
-      }
-   });
+         }
+    });
 
 
 
 
     
-
+ });
 
 //         setTimeout(function(){
 //         $(".element1").css("display", "inherit");
@@ -67,7 +67,7 @@ console.log("Hey, I work");
 //         });
 //     }, 2000);
 
- });
+
 
 
 

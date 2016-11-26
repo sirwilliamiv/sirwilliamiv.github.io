@@ -6,8 +6,8 @@ body {
 
   .container {
 
-  	max-width: 800px;
-  	max-height: 1024px;
+  	max-width: 900px;
+  	max-height: 824px;
   }
 
 .typed-cursor {
@@ -22,15 +22,19 @@ body {
   .box-icon {
 	height: 80px;
   	text-align: center;
-  	margin-top: -50px;
+  	margin-top: -95px;
   	
   }
 
   .icon {
 	border-radius: 25%;
-  	height: 55px;
-  	width: 55px;
-  	padding: 0 10px;
+  	height: 105px;
+  	width: 105px;
+  	
+  }
+
+  .icon:hover {
+  	margin-top: -95px;
   }
 
   h1 {
