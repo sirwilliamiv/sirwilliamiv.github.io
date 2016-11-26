@@ -4,17 +4,36 @@ body {
   color: white;
   }
 
+  .container {
+
+  	max-width: 800px;
+  	max-height: 1024px;
+  }
+
 .typed-cursor {
   display: none;
   }
 
   img {
-  	height: 400px;
-  	width: 200px;
+  	height: 80%;
+  	width: 100%;
+  }
+
+  .box-icon {
+	height: 80px;
+  	text-align: center;
+  	margin-top: -50px;
+  	
   }
 
   .icon {
+	border-radius: 25%;
+  	height: 55px;
+  	width: 55px;
+  	padding: 0 10px;
+  }
 
-  	height: 35px;
-  	width: 35px;
+  h1 {
+
+  	text-align: center;
   }
