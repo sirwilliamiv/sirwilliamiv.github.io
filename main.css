@@ -4,6 +4,11 @@ body {
   color: white;
   }
 
+  .header {
+  	height: 200px;
+
+  }
+
   .container {
 
   	max-width: 900px;
@@ -19,22 +24,31 @@ body {
   	width: 100%;
   }
 
-  .box-icon {
-	height: 80px;
-  	text-align: center;
-  	margin-top: -95px;
+  .first {
+  	/*margin-bottom: -45px;*/
+  }
+  .images {
+  	/*display: inline-block;*/
+  }
+
+  /*.box-icon {
+	height: 100px;
+
+  	/*text-align: center;*/*/
+ 
   	
   }
 
   .icon {
 	border-radius: 25%;
-  	height: 105px;
-  	width: 105px;
+  	/*height: 100px;
+  	width: 100px;*/
+  	
   	
   }
 
   .icon:hover {
-  	margin-top: -95px;
+  	/*margin-top: -20px;*/
   }
 
   h1 {
