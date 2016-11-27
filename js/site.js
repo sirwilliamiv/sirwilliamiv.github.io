@@ -71,7 +71,7 @@ console.log("Hey, I work");
             loopCount: false, // number of loops, false = infinite
             callback: function(){ } // call function after typing is done
         });
-    }, 500);
+    },0);
 
 setTimeout(function(){
         $("#myname").css("display", "inherit");
@@ -83,8 +83,34 @@ setTimeout(function(){
             loopCount: false, // number of loops, false = infinite
             callback: function(){ } // call function after typing is done
         });
-    }, 2000);
+    }, 500);
 
+
+
+setTimeout(function(){
+        $(".first").css("display", "inherit");
+        $(".first").typed({
+            strings: [" In a past life I was a professional drummer and Educator. ","I enjoy connecting people and making their lives better."],
+            typeSpeed: 10, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            callback: function(){ } // call function after typing is done
+        });
+    }, 4000);
+
+
+setTimeout(function(){
+        $(".second").css("display", "inherit");
+        $(".second").typed({
+            strings: [" This means learning how to solve problems that help people."],
+            typeSpeed: 10, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            callback: function(){ } // call function after typing is done
+        });
+    }, 12000);
 
 
 

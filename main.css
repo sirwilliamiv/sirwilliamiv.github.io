@@ -8,6 +8,9 @@ body {
   	height: 200px;
 
   }
+  #hello {
+  	font-size: 50px;
+  }
 
   .container {
   	background-color: black;
@@ -23,15 +26,9 @@ body {
 
   img {
   	height: 80%;
-  	width: 100%;
+  	width: 80%;
   }
 
-  .first {
-  	/*margin-bottom: -45px;*/
-  }
-  .images {
-  	/*display: inline-block;*/
-  }
 
   .face {
   	margin-top: -175px;
