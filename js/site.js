@@ -12,55 +12,8 @@ console.log("Hey, I work");
 
  $(document).ready(function(){
 
-//   // intro typing
-//          $(function(){
-//         $("p.first").typed({
-//             strings: ["Currently enrolled to be a Full-Stack Software Developer at Nashville Software School. I will not be where I was yesterday."],
-//             typeSpeed: 10,
-//             callback: function() {
-//               showThis();
-//             },
-          
-//         });
-   
-//      function showThis(){
 
-//         $("span.second").typed({
-//               strings: ["JavaScript", "HTML5", "CSS3", "Sass", "Coffee","Firebase","Bootstrap", "jQuery", "Node.js", "Ajax", "AngularJS", "Express.js", "Atom", "Grunt", "Mocha", "Chai"],
-//               // backDelay: 1500,    
-//               typeSpeed: 40,
-//               backSpeed: 20,
-//               loop: true,
-//             });
-
-//          }
-//     });
-
-// // .quote  , .skills
-// // 
-//     $(function(){
-//         $(".quote").typed({
-//             strings: [" I will not be where I was yesterday."],
-//             typeSpeed: 10,
-//             callback: function() {
-//               showThis();
-//             },
-          
-//         });
-   
-//      function showThis(){
-
-//         $(".skills").typed({
-//               strings: ["JavaScript", "HTML5", "CSS3", "Sass", "Coffee","Firebase","Bootstrap", "jQuery", "Node.js", "Ajax", "AngularJS", "Express.js", "Atom", "Grunt", "Mocha", "Chai"],
-//               // backDelay: 1500,    
-//               typeSpeed: 40,
-//               backSpeed: 20,
-//               loop: true,
-//             });
-
-//          }
-//     });
-//     
+    // Header content======================================================================================================================================================
        setTimeout(function(){
         $("#hello").css("display", "inherit");
         $("#hello").typed({
@@ -83,7 +36,10 @@ setTimeout(function(){
             loopCount: false, // number of loops, false = infinite
             callback: function(){ } // call function after typing is done
         });
-    }, 500);
+    }, 750);
+
+
+// BIO content ======================================================================================================================================================
 
 
 
@@ -97,7 +53,7 @@ setTimeout(function(){
             loopCount: false, // number of loops, false = infinite
             callback: function(){ } // call function after typing is done
         });
-    }, 4000);
+    }, 5000);
 
 
 setTimeout(function(){
@@ -110,7 +66,47 @@ setTimeout(function(){
             loopCount: false, // number of loops, false = infinite
             callback: function(){ } // call function after typing is done
         });
-    }, 12000);
+    }, 16000);
+
+setTimeout(function(){
+        $(".quote").css("display", "inherit");
+        $(".quote").typed({
+            strings: [" I am currently enrolled to be a Full-Stack Developer at Nashville Software School."],
+            typeSpeed: 0, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            callback: function(){ } // call function after typing is done
+        });
+    }, 18000);
+
+
+// Skills ======================================================================================================================================================
+
+setTimeout(function(){
+        $(".skills").css("display", "inherit");
+        $(".skills").typed({
+            strings: [" Technologies in progress: "],
+            typeSpeed: 0, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            callback: function(){ } // call function after typing is done
+        });
+    }, 18000);
+
+
+  setTimeout(function(){
+        $("#developer").css("display", "inherit");
+        $("#developer").typed({
+            strings: ["JavaScript","Node.js","HTML5","learning to communicate accross teams", "CSS3","Bootstrap","GitHub for source code and version control", "AJAX"],
+            typeSpeed: 0, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: true, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            callback: function(){ } // call function after typing is done
+        });
+    }, 18000);
 
 
 
@@ -118,30 +114,6 @@ setTimeout(function(){
     
  });
 
-//         setTimeout(function(){
-//         $(".element1").css("display", "inherit");
-//         $(".element1").typed({
-//             strings: ["yes ykles"],
-//             typeSpeed: 10, // typing speed
-//             backDelay: 1000, // pause before backspacing
-//             loop: false, // loop on or off (true or false)
-//             loopCount: false, // number of loops, false = infinite
-//             callback: function(){ } // call function after typing is done
-//         });
-//     }, 200);
-
-
-// setTimeout(function(){
-//         $(".element4").css("display", "inherit");
-//         $(".element4").typed({
-//             strings: ["I am typing for you"],
-//             typeSpeed: 10, // typing speed
-//             backDelay: 750, // pause before backspacing
-//             loop: false, // loop on or off (true or false)
-//             loopCount: false, // number of loops, false = infinite
-//             callback: function(){ } // call function after typing is done
-//         });
-//     }, 2000);
 
 
 
