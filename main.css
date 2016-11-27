@@ -13,8 +13,8 @@ body {
   	background-color: black;
   	border-radius: 2%;
 
-  	max-width: 95%;
-  	max-height: 824px;
+  	max-width: 98%;
+  	max-height:100%;
   }
 
 .typed-cursor {
@@ -34,7 +34,7 @@ body {
   }
 
   .face {
-  	margin-top: -50px;
+  	margin-top: -175px;
   }
 
   /*.box-icon {
@@ -59,10 +59,10 @@ body {
   }
 
   .icon:hover {
-  	/*margin-top: -20px;*/
+  	opacity: 0.2;
   }
 
   h1 {
 
-  	text-align: center;
+  	padding-left: 2%;
   }

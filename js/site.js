@@ -62,16 +62,28 @@ console.log("Hey, I work");
 //     });
 //     
        setTimeout(function(){
-        $("span.first").css("display", "inherit");
-        $("span.first").typed({
-            strings: ["yes ykles"],
+        $("#hello").css("display", "inherit");
+        $("#hello").typed({
+            strings: ["Hello,"],
             typeSpeed: 10, // typing speed
             backDelay: 1000, // pause before backspacing
-            loop: true, // loop on or off (true or false)
+            loop: false, // loop on or off (true or false)
             loopCount: false, // number of loops, false = infinite
             callback: function(){ } // call function after typing is done
         });
-    }, 200);
+    }, 500);
+
+setTimeout(function(){
+        $("#myname").css("display", "inherit");
+        $("#myname").typed({
+            strings: [" my name is Billy Connolly.","I am a software developer"],
+            typeSpeed: 10, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            callback: function(){ } // call function after typing is done
+        });
+    }, 2000);
 
 
 
