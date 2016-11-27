@@ -29,7 +29,7 @@ console.log("Hey, I work");
 setTimeout(function(){
         $("#myname").css("display", "inherit");
         $("#myname").typed({
-            strings: [" my name is Billy Connolly.","I am a software developer"],
+            strings: [" My name is Billy Connolly.","I am a software developer"],
             typeSpeed: 10, // typing speed
             backDelay: 750, // pause before backspacing
             loop: false, // loop on or off (true or false)
@@ -66,7 +66,7 @@ setTimeout(function(){
             loopCount: false, // number of loops, false = infinite
             callback: function(){ } // call function after typing is done
         });
-    }, 16000);
+    }, 15000);
 
 setTimeout(function(){
         $(".quote").css("display", "inherit");
@@ -93,7 +93,7 @@ setTimeout(function(){
             loopCount: false, // number of loops, false = infinite
             callback: function(){ } // call function after typing is done
         });
-    }, 18000);
+    }, 22000);
 
 
   setTimeout(function(){
@@ -106,7 +106,7 @@ setTimeout(function(){
             loopCount: false, // number of loops, false = infinite
             callback: function(){ } // call function after typing is done
         });
-    }, 18000);
+    }, 23000);
 
 
 

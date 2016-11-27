@@ -33,6 +33,9 @@ body {
   .face {
   	margin-top: -175px;
   }
+  .bio {
+  	padding-left: 2%;
+  }
 
   /*.box-icon {
 	height: 100px;
