@@ -71,7 +71,7 @@ setTimeout(function(){
 setTimeout(function(){
         $(".quote").css("display", "inherit");
         $(".quote").typed({
-            strings: [" I am currently enrolled to be a Full-Stack Developer at Nashville Software School."],
+            strings: [" I am currently enrolled at Nashville Software School learning to be a Full-Stack Developer. "],
             typeSpeed: 0, // typing speed
             backDelay: 750, // pause before backspacing
             loop: false, // loop on or off (true or false)
@@ -107,6 +107,45 @@ setTimeout(function(){
             callback: function(){ } // call function after typing is done
         });
     }, 23000);
+
+
+
+  setTimeout(function(){
+        $("#git-name").css("display", "inherit");
+        $("#git-name").typed({
+            strings: ["sirwilliamiv"],
+            typeSpeed: 0, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            callback: function(){ } // call function after typing is done
+        });
+    }, 30000);
+
+  setTimeout(function(){
+        $("#linkedin").css("display", "inherit");
+        $("#linkedin").typed({
+            strings: ["Connect"],
+            typeSpeed: 0, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            callback: function(){ } // call function after typing is done
+        });
+    }, 30050);
+
+  setTimeout(function(){
+        $("#emailme").css("display", "inherit");
+        $("#emailme").typed({
+            strings: ["E-mail Me"],
+            typeSpeed: 0, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            callback: function(){ } // call function after typing is done
+        });
+    }, 30100);
+
 
 
 

@@ -1,11 +1,12 @@
 body {
-	font-family: 'Trirong', serif;
+	font-family:'Titillium Web', sans-serif;
   background-color: #212121;
-  color: white;
+  color: #e9ece5;
   }
 
   .header {
   	height: 200px;
+  	padding-bottom: 2.5rem;
 
   }
   #hello {
@@ -15,18 +16,36 @@ body {
   .container {
   	background-color: black;
   	border-radius: 2%;
+  	padding-bottom: 300px;
 
   	max-width: 98%;
-  	max-height:100%;
+  	height:100%;
   }
 
 .typed-cursor {
   display: none;
   }
 
+  a {
+  	text-decoration: none;
+  	color: #e9ece5;
+  	padding: 10px;
+  }
+  #git-name {
+  	text-align: center;
+  }
+
   img {
   	height: 80%;
   	width: 80%;
+  }
+
+  #email {
+  	width: 100%
+  }
+  #linkedin,#emailme, #git-name {
+
+  	text-align: center;
   }
 
 
@@ -35,15 +54,27 @@ body {
   }
   .bio {
   	padding-left: 2%;
+  	font-size: 1.5rem;
+  }
+  p {
+  	font-size: 20px;
   }
 
-  /*.box-icon {
-	height: 100px;
+  .typed {
+  	padding-top: 3rem;
 
-  	/*text-align: center;*/*/
+  	font-size: 1.4rem;
+  }
+
+  .links {
+  	margin-top: -5rem;
+  	text-align: center;
+  }
+
+  
  
   	
-  }
+  
 
   /*.icon*/
   #image {
@@ -59,7 +90,7 @@ body {
   }
 
   .icon:hover {
-  	opacity: 0.2;
+  	opacity: 0.5;
   }
 
   h1 {
