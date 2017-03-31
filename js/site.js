@@ -24,7 +24,7 @@ console.log("Hey, I work");
             loopCount: false, // number of loops, false = infinite
             callback: function(){ } // call function after typing is done
         });
-    },0);
+    },50);
 
 setTimeout(function(){
         $("#myname").css("display", "inherit");
