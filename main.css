@@ -30,7 +30,7 @@ body {
 a {
   text-decoration: none;
   color: #e9ece5;
-  /*padding: 10px;*/
+
 }
 
 #git-name {
@@ -45,7 +45,7 @@ img {
 
 #email {
   width: 100%;
-  margin-bottom: -10rem;
+  margin-bottom: -4rem;
 
 }
 
@@ -60,7 +60,6 @@ img {
 
 .links {
   max-width: 400px;
-
   display: inline-block;
   padding-top: 5rem;
   margin-top: -5rem;
@@ -69,15 +68,15 @@ img {
 }
 
 .face {
-  /*  margin-top: -175px;*/
-  min-height: 75% ;
-  /*min-width: 25%;*/
-}
 
+  min-height: 75% ;
+
+}
+/*
 .bio {
   padding-left: 2%;
   font-size: 1.5rem;
-}
+}*/
 
 p {
   font-size: 20px;
@@ -95,16 +94,18 @@ p {
 
 .icon {
   display: block;
+  max-height: 15rem;
+  max-width: 15rem;
+
 }
 
 #image {
-  background-color: yellow;
+
   max-width: 20%;
   max-height: 15%;
   border-radius: 25%;
   opacity: 0.3;
-  /*height: 100px;
-    width: 100px;*/
+
 }
 
 .icon:hover {
