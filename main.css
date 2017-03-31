@@ -1,99 +1,102 @@
 body {
-	font-family:'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   background-color: #212121;
   color: #e9ece5;
-  }
+}
 
-  .header {
-  	height: 200px;
-  	padding-bottom: 2.5rem;
+.header {
+  height: 200px;
+  padding-bottom: 2.5rem;
+}
 
-  }
-  #hello {
-  	font-size: 50px;
-  }
+#hello {
+  font-size: 50px;
+}
 
-  .container {
-  	background-color: black;
-  	border-radius: 2%;
-  	padding-bottom: 300px;
-
-  	max-width: 98%;
-  	height:100%;
-  }
+.container {
+  text-align: center;
+  background-color: black;
+  border-radius: 2%;
+  padding-bottom: 300px;
+  max-width: 98%;
+  height: 100%;
+}
 
 .typed-cursor {
   display: none;
-  }
+}
 
-  a {
-  	text-decoration: none;
-  	color: #e9ece5;
-  	padding: 10px;
-  }
-  #git-name {
-  	text-align: center;
-  }
+a {
+  text-decoration: none;
+  color: #e9ece5;
+  /*padding: 10px;*/
+}
 
-  img {
-  	height: 80%;
-  	width: 80%;
-  }
+#git-name {
+  text-align: center;
+}
 
-  #email {
-  	width: 100%
-  }
-  #linkedin,#emailme, #git-name {
+img {
+  height: 80%;
+  width: 80%;
+}
 
-  	text-align: center;
-  }
+#email {
+  width: 100%;
+  margin-bottom: -3rem;
+  /*display: block;*/
+}
+
+#linkedin,
+#emailme,
+#git-name {
+  text-align: center;
+}
+
+.links {
+  display: inline-block;
+}
+
+.face {
+  /*  margin-top: -175px;*/
+}
+
+.bio {
+  padding-left: 2%;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 20px;
+}
+
+.typed {
+  padding-top: 3rem;
+  font-size: 1.4rem;
+}
+
+.links {
+  margin-top: -5rem;
+  text-align: center;
+}
 
 
-  .face {
-  	margin-top: -175px;
-  }
-  .bio {
-  	padding-left: 2%;
-  	font-size: 1.5rem;
-  }
-  p {
-  	font-size: 20px;
-  }
+/*.icon*/
 
-  .typed {
-  	padding-top: 3rem;
+#image {
+  background-color: yellow;
+  max-width: 20%;
+  max-height: 15%;
+  border-radius: 25%;
+  opacity: 0.3;
+  /*height: 100px;
+    width: 100px;*/
+}
 
-  	font-size: 1.4rem;
-  }
+.icon:hover {
+  opacity: 0.5;
+}
 
-  .links {
-  	margin-top: -5rem;
-  	text-align: center;
-  }
-
-  
- 
-  	
-  
-
-  /*.icon*/
-  #image {
-  	background-color: yellow;
-  	width: 50%;
-  	height: 25%;
-	border-radius: 25%;
-	opacity: 0.3;
-  	/*height: 100px;
-  	width: 100px;*/
-  	
-  	
-  }
-
-  .icon:hover {
-  	opacity: 0.5;
-  }
-
-  h1 {
-
-  	padding-left: 2%;
-  }
+h1 {
+  padding-left: 2%;
+}
