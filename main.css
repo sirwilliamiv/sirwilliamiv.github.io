@@ -1,99 +1,117 @@
 body {
-	font-family:'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   background-color: #212121;
   color: #e9ece5;
-  }
+}
 
-  .header {
-  	height: 200px;
-  	padding-bottom: 2.5rem;
+.header {
+  height: 200px;
+  padding-bottom: 2.5rem;
+  text-align: center;
+}
 
-  }
-  #hello {
-  	font-size: 50px;
-  }
+#hello {
+  font-size: 50px;
+}
 
-  .container {
-  	background-color: black;
-  	border-radius: 2%;
-  	padding-bottom: 300px;
-
-  	max-width: 98%;
-  	height:100%;
-  }
+.container {
+  text-align: center;
+  background-color: black;
+  border-radius: 2%;
+  padding-bottom: 300px;
+  max-width: 100%;
+  height: 100%;
+}
 
 .typed-cursor {
   display: none;
-  }
+}
 
-  a {
-  	text-decoration: none;
-  	color: #e9ece5;
-  	padding: 10px;
-  }
-  #git-name {
-  	text-align: center;
-  }
+a {
+  text-decoration: none;
+  color: #e9ece5;
 
-  img {
-  	height: 80%;
-  	width: 80%;
-  }
+}
 
-  #email {
-  	width: 100%
-  }
-  #linkedin,#emailme, #git-name {
+#git-name {
+  text-align: center;
+}
 
-  	text-align: center;
-  }
+img {
+  margin: 0 auto;
+  height: 80%;
+  width: 80%;
+}
+
+#email {
+  width: 100%;
+  margin-bottom: -4rem;
+
+}
+
+#linkedin,
+#emailme,
+#git-name {
+  text-align: center;
+}
+#git-name {
+  margin-bottom: 30rem;
+}
+
+.links {
+  max-width: 400px;
+  display: inline-block;
+  padding-top: 5rem;
+  margin-top: -5rem;
+  text-align: center;
+
+}
+
+.face {
+
+  min-height: 75% ;
+
+}
+/*
+.bio {
+  padding-left: 2%;
+  font-size: 1.5rem;
+}*/
+
+p {
+  font-size: 20px;
+}
+
+.typed {
+  padding-top: 3rem;
+  font-size: 1.4rem;
+}
 
 
-  .face {
-  	margin-top: -175px;
-  }
-  .bio {
-  	padding-left: 2%;
-  	font-size: 1.5rem;
-  }
-  p {
-  	font-size: 20px;
-  }
 
-  .typed {
-  	padding-top: 3rem;
 
-  	font-size: 1.4rem;
-  }
+/*.icon*/
 
-  .links {
-  	margin-top: -5rem;
-  	text-align: center;
-  }
+.icon {
+  display: block;
+  max-height: 15rem;
+  max-width: 15rem;
 
-  
- 
-  	
-  
+}
 
-  /*.icon*/
-  #image {
-  	background-color: yellow;
-  	width: 50%;
-  	height: 25%;
-	border-radius: 25%;
-	opacity: 0.3;
-  	/*height: 100px;
-  	width: 100px;*/
-  	
-  	
-  }
+#image {
 
-  .icon:hover {
-  	opacity: 0.5;
-  }
+  max-width: 20%;
+  max-height: 15%;
+  border-radius: 25%;
+  opacity: 0.3;
 
-  h1 {
+}
 
-  	padding-left: 2%;
-  }
+.icon:hover {
+  opacity: 0.5;
+}
+
+h1 {
+  padding-left: 2%;
+}
